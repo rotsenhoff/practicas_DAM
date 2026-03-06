@@ -1,0 +1,70 @@
+{
+    "cine_apolo":
+    {
+        "salas":
+        [
+            {"sala": 1, "capacidad": 100, "tipo": "2D"},
+            {"sala": 2, "capacidad": 120, "tipo": "3D"},
+            {"sala": 3, "capacidad": 100, "tipo": "IMAX"}
+        ],
+
+        "peliculas":
+        [
+            {
+                "titulo": "Tron: Ares",
+                "duracion": 119,
+                "genero": "Ciencia Ficción",
+                "clasificacion": "PG-13"
+            },
+            {
+                "titulo": "Bad Guys: 2",
+                "duracion": 104,
+                "genero": "Infantil",
+                "clasificacion": "PG-7"
+            },
+            {
+                "titulo": "The Strangers: Chapter 2",
+                "duracion": 96,
+                "genero": "Terror",
+                "clasificacion": "PG-16"
+            }
+        ],
+
+        "funciones_programadas": 
+        [
+            {
+                "pelicula": "Tron: Ares",
+                "sala": 3,
+                "horarios":{"h1": "18:00", "h2": "20:00"}
+            },
+            {
+                "pelicula": "Bad Guys: 2",
+                "sala": 1,
+                "horarios": {"h1": "15:00", "h2": "17:00"}
+            },
+            {
+                "pelicula": "The Strangers: Chapter 2",
+                "sala": 2,
+                "horarios": {"h1": "21:00", "h2": "23:00"}
+            }
+        ],
+
+        "reservas":
+        [
+            {
+                "id_reserva": "R001",
+                "nombre_cliente": "Juan Pérez",
+                "numero_entradas": 2,
+                "funcion_asociada": "Tron: Ares",
+                "horario_funcion": "h1"
+            },
+            {
+                "id_reserva": "R002",
+                "nombre_cliente": "Ana Gómez",
+                "numero_entradas": 4,
+                "funcion_asociada": "Bad Guys: 2",
+                "horario_funcion": "h2"
+            }   
+        ]       
+    }
+}

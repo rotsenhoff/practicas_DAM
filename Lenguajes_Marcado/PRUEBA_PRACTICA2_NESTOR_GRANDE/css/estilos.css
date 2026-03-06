@@ -1,0 +1,51 @@
+
+    /*EJERCICIO 1*/
+
+h1{
+    font-size: 14px; /*tamaño de fuente*/
+    font-family: Arial, Helvetica, sans-serif; /*tipo de letra*/
+    color: darkgreen; /*color del texto*/
+}
+
+    /*EJERCICIO 2*/
+
+.seccion{
+    font-size: 12px; /*tamaño de fuente*/
+    margin-top: 20px; /*espacio superior*/
+    margin-bottom: 20px; /*espacio inferior*/
+    text-align: center; /*text align centra el texto*/
+    color: orange; /*color del texto*/
+}
+
+    /*EJERCICIO 3*/
+
+#descripcion{
+    font-size: 10px; /*tamaño de fuente*/
+    font-weight: bold; /*font weight: bold sirve para darle negrita al texto*/
+}
+
+    /*EJERCICIO 4*/
+
+table.datos{
+    border-collapse: collapse; /*border collapse sirve para colapsar los bordes de la tabla*/
+    width: 50%; /*width sirve para darle un ancho a la tabla*/
+    padding: 10px; /*padding sirve para darle espacio interior a las celdas de la tabla*/
+}
+
+table.datos th, table.datos td{
+    border: 1px solid black; /*border sirve para darle un borde visible a las celdas de la tabla*/
+    padding: 10px; /*padding sirve para darle espacio interno a las celdas de la tabla*/
+}
+
+table.datos th{
+    background-color: lightgray; /*background color sirve para darle un color de fondo a las celdas del encabezado de la tabla*/
+}
+    /*NOTA!!: Esta solución está dada por una IA. He optado por usarlo puesto que no recuerdo haber hecho algo
+    similar en clase ni tampoco en los apuntes. NO es argumento para justificar su uso por tanto lo dejo comentado, puesto que,
+    en la realidad, no sabría hacerlo
+    */
+    /* Filas alternas: 2,4,6... */
+
+/*table.datos tr:nth-child(even) td {
+  background-color: #f2f2f2;  
+}*/

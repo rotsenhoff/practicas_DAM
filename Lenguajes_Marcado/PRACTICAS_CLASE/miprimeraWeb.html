@@ -1,0 +1,76 @@
+<!-- Para que escriba el DOCTYPE de html ponemos signo de exclamación (!) y 
+ luego pulsamos Intro-->  
+
+<!DOCTYPE html> <!--Esto es un comentario y la forma de escribirlo-->
+<html lang="es"> <!-- Aqui marca el lenguaje, viene por defecto "en" -->
+<head>
+    <meta charset="UTF-8"> <!-- El charset marca la grafía española, para añadir
+    tildes, ñ... -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- El contenido se ensacha a todo tipo de formatos, desde PC a tablets, móviles... -->
+    <title>Mi primera Web</title> <!-- El título de la pestaña del navegador -->
+    <link rel="stylesheet" href="estilo.css"> <!-- Aquí enlazamos la hoja de estilos para "maquillar"
+    nuestra web. Debe ser específicamente aquí, antes de cerrar el head-->
+</head>
+<body>
+    <h1>Mi primera web</h1> <!-- h1 es el título más grande -->
+    <h2>Mi primera web</h2>
+    <h3>Mi primera web</h3>
+    <h4>Mi primera web</h4> <!-- h4 es el título más pequeño -->
+    <h1 id="colorVerde">Encabezado</h1> <!-- id sirve para identificar un elemento
+    de la web y poder aplicarle estilos desde la hoja de estilos -->    
+    <p>Hola soy <strong>Néstor</strong>, esta es mi primera web <br> y me encanta programar</p> <!-- p es párrafo y
+    <br> sirve para realizar el salto de linea, porque de normal HTML no lo reconoce 
+    sino se especifica. <strong> sirve para marcar un contenido en negrita -->
+    
+    <p class="prioritaria">hola</p>
+    <p class="normal">hola</p>
+    <p class="baja">hola</p>
+    <p class="prioritaria">hola</p>
+    <p class="normal">hola</p>
+    <p class="baja">hola</p>
+
+    <!-- Listas ordenadas: Es una lista como tal con todos los elementos ordenados (1,2,3,4...). empieza con un "ol"(ordered list) 
+     y cada elemento se nombra con una etiqueta "li"-->
+
+     <h4>Lista ordenada</h4>
+     <ol>
+        <li class="elementoOrdenado">elemento 1</li>
+        <li class="elementoOrdenado">elemento 2</li>
+        <li class="elementoOrdenado">elemento 3</li>
+     </ol>
+
+
+     <!--Listas desordenadas: Es una lista como tal con todos los elementos desordenados. empieza con un "ul"(unordered list) 
+     y cada elemento se nombra con una etiqueta "li"-->
+        
+    <h4>Lista desordenada</h4>
+    <ul>
+        <li class="elementoDesordenado">elemento A</li>
+        <li class="elementoDesordenado">elemento B</li>
+        <li class="elementoDesordenado">elemento C</li>
+    </ul>
+
+     <!--Enlaces. para un enlace añadimos "a" de anchor. "href" es donde me lleva ese enlace. Hay que añadir un texto que será
+     el vínculo para llevarnos a ese enlace-->
+
+     <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwjtqYHU6dWQAxVf9rsIHdjyC3MQPAgJ">Enlace a Google</a>
+
+     <!-- Sino queremos salirnos de la página y que nos abra el enlace en una pestaña nueva debemos añadir : target="_blank". Poniendo
+      <br> nos da un salto de linea -->
+
+     <a href="https://www.google.com/webhp?hl=es&sa=X&ved=0ahUKEwjtqYHU6dWQAxVf9rsIHdjyC3MQPAgJ" target="_blank">Enlace a Google en una nueva pestaña</a> <br>
+
+     <!--Imágenes. Debemos añadir src (source), puesto que la imagen estará en nuestro disco duro. 
+     Por buena praxis, debe estar en la carpeta donde estamos trabajando.
+      NO TIENE CIERRE. Es de las pocas etiquetas en HTML que no posee cierre.
+      Una vez tengamos la imagen, haciendo un "copyPath" nos copia la dirección de la imagen. podemos omitir la dirección 
+      de la carpeta, puesto que se encuentra en la misma carpeta y es donde irá a buscarla -->
+
+    <!--la dirección de la imagen al hacer copy path: 
+    C:\WORKSPACE\DAM\Lenguajes_Marcado\PRACTICAS_CLASE\coche-disney-cars-ayo-mc-queen.jpg-->
+
+     <img src="coche-disney-cars-ayo-mc-queen.jpg">
+    
+</body>
+</html>

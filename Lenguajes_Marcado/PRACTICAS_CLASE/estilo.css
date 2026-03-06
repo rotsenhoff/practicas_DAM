@@ -1,0 +1,75 @@
+
+/* Asi se coloca un comentario en un archivo .css */
+body{
+    
+    background: linear-gradient(to right, white, rgb(90, 230, 230)); /*Aquí definimos un cambio 
+    de color, para crear un degradado. Nos pide tres datos; el primero la 
+    dirección(top, bottom,left,right), el segundo el color1, el tercero el color2 y 
+    asi con tantos colores como queramos */
+    
+    /*background-color: aquamarine;*/ /* Aquí definimos el color de fondo de la página simple, 
+    por así decirlo */
+    font-family:Arial, Helvetica, sans-serif; /* Aquí definimos la fuente de letra de la página */
+}
+
+h1 {
+    color:rgb(47, 103, 186); /* Aquí definimos el color del h1, para variarlo de otro podemos
+    clicar en el cuadrado y nos aparece una pantalla con una variedad de colores */
+    text-align: center; /* Aquí centramos el h1 */
+    font-size: 50px; /* Aquí definimos el tamaño de la fuente del h1 */
+    text-decoration: underline; /* Aquí subrayamos el h1 */
+}
+
+#colorVerde { /* Aquí seleccionamos el id que hemos puesto en el h1 del HTML, al ser un id
+    hay que poner un hashtag # al principio */
+    color:brown; /* Aquí definimos el color del h1 con id colorVerde */
+    text-align: left; /* Aquí alineamos a la izquierda el h1 con id colorVerde */
+    text-decoration: none; /* Aquí quitamos el subrayado del h1 con id colorVerde */
+    background-color: aqua; /* Aquí definimos el color de fondo del h1 con id colorVerde */
+}
+
+h2{
+    color:red;
+}
+
+strong{
+    color: red; /* Aquí definimos el color del strong */
+}
+
+p{
+    font-size: 25px; /* Aquí definimos el tamaño de la fuente del párrafo */
+}
+
+.prioritaria{ /* Aquí seleccionamos la clase prioritaria. Al ser una clase, añadimos 
+    un punto . al principio de la definición de clase */
+    color: red;
+}
+
+.normal{
+    color: orange;
+}
+
+.baja{
+    color:green;
+}
+
+h3 {
+    color:yellow;
+}
+
+h4{
+    color:blue;
+}
+
+.elementoOrdenado{
+    color: red
+}
+
+.elementoDesordenado{
+    color: green
+}
+
+img{ /*Con esto podemos modificar el tamaño de la imagen*/
+    width: 20%;
+
+}

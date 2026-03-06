@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding= "UTF-8"?>
+<cine id="apolo">
+    <sala>
+        <id>1</id>
+        <capacidad>100</capacidad>
+        <tipo>2D</tipo>
+    </sala>
+
+    <sala>
+        <id>2</id>
+        <capacidad>120</capacidad>
+        <tipo>3D</tipo>
+    </sala>
+
+    <sala>
+        <id>3</id>
+        <capacidad>100</capacidad>
+        <tipo>IMAX</tipo>
+    </sala>
+
+    <pelicula id="Tron">
+        <titulo>Tron: Ares</titulo>
+        <duracion>119</duracion>
+        <genero>Ciencia Ficción</genero>
+        <clasificacion>PG-13</clasificacion>
+    </pelicula>
+
+    <pelicula id="BadGuys">
+        <titulo>Bad guys: 2</titulo>
+        <duracion>104</duracion>
+        <genero>Infantil</genero>
+        <clasificacion>PG-7</clasificacion>
+    </pelicula>
+
+    <pelicula id="Strangers">
+        <titulo>The Strangers: Chapter 2</titulo>
+        <duracion>96</duracion>
+        <genero>Terror</genero>
+        <clasificacion>PG-16</clasificacion>
+    </pelicula>
+
+        <funcion id_peli="Tron">
+            <pelicula_proyectada>Tron: Ares</pelicula_proyectada>
+            <sala_asignada>3</sala_asignada>
+            <horario>
+                <hora id="h1">18:00:00</hora>
+                <hora id="h2">20:00:00</hora>
+            </horario>
+    </funcion>
+
+    <funcion id_peli="BadGuys">
+        <pelicula_proyectada>Bad guys: 2</pelicula_proyectada>
+        <sala_asignada>1</sala_asignada>
+        <horario>
+            <hora id="h1">15:00:00</hora>
+            <hora id="h2">17:00:00</hora>
+        </horario>
+    </funcion>
+
+    <funcion id_peli="Strangers">
+        <pelicula_proyectada>The Strangers: Chapter 2</pelicula_proyectada>
+        <sala_asignada>2</sala_asignada>
+        <horario>
+            <hora id="h1">21:00:00</hora>
+            <hora id="h2">23:00:00</hora>
+        </horario>
+    </funcion>
+
+    
+        <reserva id_reserva="R001">
+            <nombre_cliente>Juan Pérez</nombre_cliente>
+            <numero_entradas>2</numero_entradas>
+            <funcion_asociada>Tron</funcion_asociada>
+            <horario_funcion>h1</horario_funcion>
+        </reserva>
+
+        <reserva id_reserva="R002">
+            <nombre_cliente>Ana Gómez</nombre_cliente>
+            <numero_entradas>4</numero_entradas>
+            <funcion_asociada>BadGuys</funcion_asociada>
+            <horario_funcion>h2</horario_funcion>
+        </reserva>
+
+</cine>
+

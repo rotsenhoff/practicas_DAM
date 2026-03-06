@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plataforma Multimedia Educativa</title>
+    <link rel="stylesheet" href="practica3dam.css">
+</head>
+<body>
+    
+    <header>
+        <h1>Plataforma Educativa</h1>
+        <p>Recursos audivisuales para el aprendizaje</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Cursos</a></li>
+            <li><a href="#">Multimedia</a></li>
+        </ul>
+    </nav>
+
+    <main>
+
+        <section id="audio">
+            <h2>Contenido para la web de audio</h2>
+            <p>Lecciones en formato podcast para reforzar conceptos</p>
+
+                <!--Reproductor audio html5-->
+                <audio controls>
+                    <source src="leccion1.mp3" type="audio/mpeg">
+                    Tu navegador no soporta el elemento de audio. <!--Mensaje alternativo para navegadores que no soportan audio-->
+                </audio>
+        </section>
+
+        <section id="video">
+
+            <h2>Contenido en formato de video</h2>
+            <p>Clases grabadas con explicaciones detalladas</p>
+
+            <!--Reproductor video html5-->
+            <video controls poster="poster.jpg"> <!--Atributo poster para mostrar una imagen antes de reproducir el video-->
+                <source src="clase1.mp4" type="video/mp4"> <!--Fuente del video en formato mp4-->
+                
+                <track src="subtitulos.vtt" kind="subtitles" srclang="es" label="Español"> <!--Pista de subtítulos en español-->
+                Tu navegador no soporta el elemento de video. <!--Mensaje alternativo para navegadores que no soportan video-->
+            </video>
+        </section>
+    </main>
+
+    <footer>
+        <p>2024 Plataforma Educativa. Todos los derechos reservados.</p>
+    </footer>
+    
+</body>
+</html>

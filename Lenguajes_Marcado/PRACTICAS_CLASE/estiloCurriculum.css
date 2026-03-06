@@ -1,0 +1,74 @@
+body {
+
+    font-family: Arial, sans-serif;
+    background-color: beige;
+}
+
+#encabezado{
+
+    color: brown;
+    background: linear-gradient(to right, white, beige);
+    font-size: 45px;
+    text-align: center;
+    border-style: solid; 
+    border-width: 3px; 
+    border-color: black; 
+    padding: 20px; 
+    margin-left: 25%;
+    margin-right: 25%; 
+}
+
+.viñetaDatos{
+
+    display: flex; 
+    flex-direction: row; 
+    border: solid, 3px, black; /* Esto define el borde del contenedor flexible. Podemos ponerlo todo en una
+    sola fila */
+    margin-bottom: 10px; /* Esto define el espacio entre el borde del contenedor flexible y los elementos que
+    están debajo */
+}
+
+.divImagen{
+
+    display: flex; /* Esto define un contenedor flexible */
+    justify-content: center; /* Esto centra el contenido horizontalmente */
+    align-items: center; /* Esto centra el contenido verticalmente */
+    width: 33%; /* Esto define el ancho de cada div que contiene la imagen */
+    padding: 30px; /* Esto define el espacio entre la imagen y el borde del div */
+}
+
+.divTextos{
+
+    width: 67%; /* Esto define el ancho del div que contiene los textos */
+    display: flex; /* Esto define un contenedor flexible */
+    flex-direction: column; /* Esto define la dirección de los elementos flexibles en una columna */
+    color: blue; /* Esto define el color del texto */
+    font-size: 25px; /* Esto define el tamaño del texto */
+}
+
+img{
+
+    width: 60%; /* Esto define el ancho de las imágenes */
+    border-radius: 50%; /* Esto hace que las imágenes sean circulares */
+}
+
+.divNombre{
+
+    display: flex; /* Esto define un contenedor flexible */
+    justify-content: center; /* Esto centra el contenido horizontalmente */
+    align-items: center; /* Esto centra el contenido verticalmente */
+    height: 25%; /* Esto define la altura del div que contiene el nombre */
+    border: solid 2px black; /* Esto define el borde del div que contiene el nombre */
+    margin: 10px; /* Esto define el espacio entre el borde del div y el contenido */
+}
+
+.divDescripcion{
+
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 75%; 
+    border: solid 2px black;
+    margin: 10px; 
+    text-align: center; 
+}

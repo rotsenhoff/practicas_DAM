@@ -1,0 +1,5 @@
+<xml version="1.0" encoding="UTF-8">
+
+<catalogo>
+    <producto codigo="P01" nombre="Teclado" precio="25" catgoria="Periférico"/>
+</catalogo>

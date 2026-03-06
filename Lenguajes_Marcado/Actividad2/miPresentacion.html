@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- Bootstrap 5 CDN -->
+  <link 
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" 
+    rel="stylesheet">
+  <title>Página de Presentación</title>
+</head>
+<body>
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand" href="#">Mi Página</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#sobre">Sobre mí</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <!-- Encabezado -->
+  <header class="bg-light py-5 text-center">
+    <h1 class="display-4">Néstor Grande Martínez</h1>
+    <p class="lead">Esta es mi página de presentación, <b>conóceme!</b></p>
+    <a href="#inicio" class="btn btn-primary btn-lg">Saber más</a>
+  </header>
+  <!-- Sección con Grid -->
+  <section id="inicio" class="container py-5">
+    <h2 class="text-center mb-4">Inicio</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <p>
+          Hola, soy estudiante de <b>DAM</b> y esta es <u>mi página personal</u>. En el apartado <i>Sobre mí</i> encontrarás información sobre 
+          mis habilidades, galería de fotos y un listado de mis intereses.
+        </p>
+        </div>
+      <div class="col-md-6">
+        <p>
+          Más abajo encontrarás un <big>formulario de contacto</big> para que puedas enviarme un mensaje 
+          si deseas saber más sobre mí, <strike>hacer una crítica sobre mí página </strike> o mis proyectos.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!-- Tarjetas -->
+  <section id="sobre" class="bg-light py-5">
+    <div class="container">
+      <h2 class="text-center mb-4">Sobre mí</h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><big>Habilidades</big></h5>
+              <table class="table table-dark table-striped">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col"><b>Habilidad</b></th>
+                    <th scope="col"><b>Nivel</b></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Persuasión</td>
+                    <td>Profesional</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Pulgares a 360º, dominio <u>perfecto</u> del joystick</td>
+                    <td>Dios</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Programar en; JAVA, HTML, CSS </td>
+                    <td>Pardillo</td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Batallar contra Protos</td>
+                    <td>Terran; <i>Semper Fidelis</i></td>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="#contacto" class="btn btn-primary">Más info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><big>Intereses</big></h5>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Dominar el mundo con un ejército de <i>Minions</i></li>
+                <li class="list-group-item">Continuar aprendiendo a programar</li>
+                <li class="list-group-item">Convencer a chatGPT para que derive a mi cuenta los "impuestos" de Hacienda</li>
+                <li class="list-group-item">Aprendo defensa personal para derrotar a Chuck Norris en combate singular</li>
+                <li class="list-group-item">Sacarle unas risas a mi profesor para que no me catee la asignatura</li>
+              </ul>
+              <a href="#contacto" class="btn btn-primary">Más info</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="card">
+            <div class="card-body">
+              <h5 class="card-title"><big>Galería de fotos</big></h5>
+              <table class="table table-bordered">
+                <thead>
+                  <tr>
+                    <th scope="col"><b>FOTOGRAFIAS</b></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <th scope="row">Programando</th>
+                    <td><img src="images/aprende_programar.png" class="img-fluid" alt="yo programando"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Mi ejército de Minions</th>
+                    <td><img src="images/minions.jpg" class="img-fluid" alt="minions"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Preparando la batalla contra Chuck</th>
+                    <td><img src="images/defensa.jpg" class="img-fluid" alt="defensa personal"></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">Me preparo para programar...</th>
+                    <td><img src="images/html.jpg" class="img-fluid" alt="aprendo HTML"></td>
+                  </tr>
+                </tbody>
+              </table>
+              <a href="#contacto" class="btn btn-primary">Más info</a>
+            </div>
+          </div>
+          </div>
+      </div>
+    </div>
+  </section>
+  <!-- Formulario -->
+  <section id="contacto" class="container py-5">
+    <h2 class="text-center mb-4">Contacto</h2>
+    <form class="mx-auto" style="max-width: 600px;">
+      <div class="mb-3">
+        <label class="form-label">Nombre</label>
+        <input type="text" class="form-control" placeholder="Escribe tu nombre">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Correo</label>
+        <input type="email" class="form-control" placeholder="correo@ejemplo.com">
+      </div>
+      <div class="mb-3">
+        <label class="form-label">Mensaje</label>
+        <textarea class="form-control" rows="4"></textarea>
+      </div>
+      <button class="btn btn-success w-50">Enviar</button>
+    </form>
+  </section>
+  <!-- JS de Bootstrap -->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js">
+  </script>
+  <footer>
+<p>&copy; 2025 Mi Pagina de Presentación. Todos los derechos reservados.</p>
+</footer>
+</body>
+</html>

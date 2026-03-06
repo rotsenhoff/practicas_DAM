@@ -1,0 +1,21 @@
+
+<?xml version="1.0" encoding="UTF-8"?> 
+<?xml-stylesheet type="text/xsl" href="cursos.xsl"?> 
+
+<cursos> 
+    <curso> 
+        <nombre>Lenguajes de Marcas</nombre> 
+        <horas>120</horas> 
+        <nivel>Básico</nivel> 
+    </curso> 
+    <curso> 
+        <nombre>Programación</nombre> 
+        <horas>180</horas> 
+        <nivel>Intermedio</nivel> 
+    </curso> 
+    <curso> 
+        <nombre>Bases de Datos</nombre> 
+        <horas>150</horas> 
+        <nivel>Avanzado</nivel> 
+    </curso> 
+</cursos>

@@ -1,0 +1,115 @@
+body{
+    background-color: #dfe5ec;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    color: #333;
+}
+
+.top-bar{   /* Estilos para la barra superior */
+    background-color: #020617;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+.header{    /* Estilos para el encabezado */
+    background-color: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+.menu{  /* Estilos para el menú de navegación */
+    background-color: #1e293b;
+    
+}
+
+.menu-list{ /* Estilos para la lista del menú de navegación */
+    list-style: none;
+    margin: 0;
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+.menu-list a {   /* Estilos para los enlaces del menú de navegación */
+    color: white;
+    text-decoration: none;
+    font-weight: bold; /*font weight sirve para darle negrita al texto de los enlaces del menú*/
+}
+
+.hero { /* Estilos para la sección principal */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    background-color: #334155;
+    color: white;
+}
+
+.main {   /* Estilos para el contenedor de contenido */
+    width: 85%;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.section {    /* Estilos para las secciones de contenido */
+    background-color: white;
+    padding: 25px;
+    border: 1px solid #ccc;
+}
+
+.section h2 {   /* Estilos para los títulos de las secciones */
+    margin-top: 0;
+    border-bottom: 2px solid;
+    padding-bottom: 10px;
+}
+
+.contact-form {   /* Estilos para el formulario de contacto */
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {    /* Estilos para los grupos de formulario */
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input, .form-group textarea {   /* Estilos para los campos de entrada y textarea */
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.form-group textarea {   /* Estilos específicos para el textarea */
+    height: 120px;
+}
+
+.form-group input[type="submit"] { /* Estilos para el botón del formulario */
+    
+    width: 160px;
+    background-color: #0f172a;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-group input[type="submit"]:hover { /* Estilos para el botón del formulario al pasar el mouse */
+     width: 160px;
+    background-color: #254893;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.footer {    /* Estilos para el pie de página */
+    background-color: #1e293b;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+
