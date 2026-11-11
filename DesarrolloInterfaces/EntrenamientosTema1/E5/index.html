@@ -1,0 +1,22 @@
+<!doctype html>
+    <html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entrenamiento 5 - Habilitar botón</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <main class="contenedor">
+        <h1>Habilitar el envío según la entrada</h1>
+        <form id="formulario">
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" autocomplete="name"
+        aria-describedby="ayudaNombre">
+        <p id="ayudaNombre">El botón se habilitará cuando escribas un nombre.</p>
+        <button id="botonEnviar" type="submit" disabled>Enviar</button>
+        </form>
+        </main>
+        <script src="script.js"></script>
+    </body>
+    </html>

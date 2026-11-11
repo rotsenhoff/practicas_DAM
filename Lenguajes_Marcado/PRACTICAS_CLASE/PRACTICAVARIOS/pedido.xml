@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedido idPedido="P001">
+    <fecha>2024-04-22</fecha>
+    
+    <cliente>
+        <nombre>John Doe</nombre>
+        <email>john.doe@example.com</email>
+    </cliente>
+
+    <productos>
+        <producto>
+            <nombre>Teclado de ordenador</nombre>
+            <precio>15,99</precio>
+            <cantidad>3</cantidad>
+        </producto>
+        <producto>
+            <nombre>Ratón óptico</nombre>
+            <precio>20,95</precio>
+            <cantidad>2</cantidad>
+        </producto>
+    </productos>
+
+    <total>66.00</total>
+</pedido>

@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Entrenamiento 2 - Validación de formulario</title>
+    <link rel="stylesheet" href="styles.css">
+    </head>
+    
+    <body>
+        <main class="contenedor">
+            <h1>Formulario con validación</h1>
+        <form id="formulario" novalidate>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" name="nombre" type="text" autocomplete="name"
+        aria-describedby="errorNombre">
+        <p id="errorNombre" class="error" role="alert" hidden>
+            Escribe tu nombre antes de continuar.
+        </p>
+    <button type="submit">Enviar</button>
+        </form>
+    <p id="resultado" class="resultado" aria-live="polite"></p>
+        </main>
+
+    <script src="script.js"></script>
+
+    </body>
+</html>

@@ -1,0 +1,273 @@
+:root {
+    font-family: "Trebuchet MS", Arial, sans-serif;
+    color: #252525;
+    background: #eef0f2;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+
+    --amarillo: #f5c518;
+    --oscuro: #20252b;
+    --borde: #d5d9de;
+    --suave: #fff5c2;
+}
+
+*{box-sizing:border-box}
+
+body{margin:0;min-width:320px}
+
+.cabecera {
+    min-height: 100px;
+    padding: 20px max(calc((100vw - 1120px) / 2), 24px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+
+    background: var(--oscuro);
+    color: #ffffff;
+    border-bottom: 6px solid var(--amarillo);
+}
+    .marca {
+            margin: 0;
+            font-size: 22px;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+        }
+        .marca span{
+            color:var(--amarillo)
+        }
+            .subtitulo {
+                margin: 0;
+                color: #d7dce1;
+                font-size: 14px;
+            }
+            .contenedor{
+                max-width:1120px;
+                margin:0 auto;
+                padding:62px 24px 76px
+            }
+            .encabezado-seccion{
+                max-width:690px;
+                margin-bottom:34px
+            }
+            .etiqueta {
+                display: inline-block;
+                margin: 0;
+                padding: 6px 12px;
+                background: var(--amarillo);
+                color: var(--oscuro);
+                border-radius: 4px;
+                font-size: 11px;
+                font-weight: 700;
+                letter-spacing: 0.12em;
+            }
+            .encabezado-seccion h1{
+                margin:12px 0;
+                font:600 clamp(32px,5vw,48px)/1.08 "Trebuchet MS",sans-serif;
+                letter-spacing:-.04em;color:var(--oscuro)
+            }
+            .introduccion{
+                color: #555d66;
+                font-size:16px;
+                line-height:1.6
+            }
+            .catalogo {
+                display: grid;
+                grid-template-columns: 1fr;
+                gap: 24px;
+                max-width: 650px;
+                margin: 0 auto;
+            }
+            .tarjeta {
+                overflow: hidden;
+                background: #ffffff;
+                border: 1px solid var(--borde);
+                border-top: 6px solid var(--amarillo);
+                border-radius: 10px;
+                box-shadow: 0 4px 14px #00000014;
+                transition: transform 0.2s ease, box-shadow 0.2s ease;
+            }
+            .tarjeta:hover {
+                transform: translateY(-2px);
+                box-shadow: 0 8px 22px #00000020;
+            }
+            .imagen-producto {
+                display: grid;
+                place-items: center;
+                min-height: 250px;
+                padding: 22px;
+                background: #e5e7eb;
+                border-bottom: 1px solid var(--borde);
+            }
+            .imagen-producto img{
+                display:block;
+                width:min(100%,310px);
+                height:205px;
+                object-fit:contain
+            }
+            .contenido-tarjeta{
+                padding:23px 25px 25px
+            }
+            .categoria {
+                margin: 0 0 8px;
+                color: #555d66;
+                font-size: 11px;
+                font-weight: 700;
+                letter-spacing: 0.1em;
+                text-transform: uppercase;
+            }
+            .contenido-tarjeta h2{
+                margin:0;
+                font:600 24px "Trebuchet MS",sans-serif;
+                color:var(--oscuro)
+            }
+            .descripcion{
+                min-height:48px;
+                margin:9px 0;
+                color:#555d66;
+                font-size:14px;
+                line-height:1.55
+            }
+            .precio{
+                margin:18px 0;
+                font:700 25px "Trebuchet MS",sans-serif
+            }
+            .acciones
+            {display:flex;
+                gap:10px
+            }
+            .boton{
+                min-height:44px;
+                padding:10px 17px;
+                border:1px solid var(--amarillo);
+                border-radius:9px;
+                font-family:inherit;
+                font-size:14px;
+                font-weight:600;
+                cursor:pointer;
+                transition:background .15s,color .15s
+            }
+            .boton:focus-visible,input:focus-visible,select:focus-visible{
+                outline:3px solid #e1a900;
+                outline-offset:3px
+            }
+            .boton-secundario {
+                color: var(--oscuro);
+                background: #ffffff;
+                border-color: var(--oscuro);
+            }
+
+            .boton-secundario:hover {
+                background: var(--oscuro);
+                color: #ffffff;
+            }
+            .boton-principal {
+                color: var(--oscuro);
+                background: var(--amarillo);
+            }
+            .boton-principal:hover {
+                background: #dfb10d;
+            }
+            .detalles {
+                margin: 18px 0 0;
+                padding: 20px;
+                background: #f3f4f6;
+                border: 1px solid var(--borde);
+                border-radius: 8px;
+                font-size: 14px;
+            }
+            .detalles h3
+            {margin:0 0 8px;
+                font-size:14px
+            }
+            .detalles ul{
+                margin:0;
+                padding-left:19px;
+                line-height:1.8
+            }
+            .formulario{
+                display:grid;
+                grid-template-columns:1fr 1fr;
+                gap:12px;
+                margin-top:15px;
+                padding-top:16px;
+                border-top:1px solid var(--borde)
+            }
+            .campo{
+                display:grid;
+                gap:6px;
+                font-size:12px;
+                font-weight:600
+            }
+            .campo input,
+            .campo select {
+                width: 100%;
+                height: 42px;
+                padding: 8px 10px;
+                border: 1px solid #929aa3;
+                border-radius: 6px;
+                background: #ffffff;
+                color: var(--oscuro);
+                font-family: inherit;
+                font-size: 14px;
+            }
+            .formulario .boton{
+                grid-column:1/-1
+            }
+            .mensaje{
+                grid-column:1/-1;
+                min-height:20px;
+                margin:0;
+                color: var(--oscuro);
+                font-size:13px
+            }
+            .tarjeta [hidden]{
+                display:none!important
+            }
+            footer{
+                padding:22px;
+                text-align:center;
+                border-top:1px solid var(--borde);
+                color: #606872;
+                font-size:12px
+            }
+            @media(max-width:700px){
+                .cabecera{
+                    height:auto;
+                    min-height:70px;
+                    padding:14px 20px;
+                    gap:12px
+                }
+                .subtitulo{
+                    text-align:right;
+                    font-size:12px
+                }
+                .contenedor{
+                    padding:44px 20px 58px
+                }
+                .catalogo{
+                    grid-template-columns:1fr;
+                    gap:18px
+                }
+                .imagen-producto{
+                    min-height:220px
+                }
+                .imagen-producto img{
+                    height:180px
+                }
+                .formulario {
+                    grid-template-columns: 1fr;
+                }
+            }
+            @media(max-width:390px){
+                .cabecera{
+                    align-items:flex-start;
+                    flex-direction:column
+                }
+                .subtitulo{
+                    text-align:left
+                }
+                .contenido-tarjeta{
+                    padding:20px
+                }
+            }

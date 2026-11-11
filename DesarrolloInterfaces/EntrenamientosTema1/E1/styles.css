@@ -1,0 +1,44 @@
+:root {
+    font-family: Arial, sans-serif;
+    color: #202124;
+    background: #f4f6f8;
+}
+
+body {
+    margin: 0;
+ }
+
+ .contenedor {
+    width: min(680px, calc(100% - 40px));
+    margin: 80px auto;
+    padding: 32px;
+    background: white;
+    box-shadow: 0 8px 24px rgb(0 0 0 / 10%);
+    border-radius: 16px;
+ }
+
+ button {
+    padding: 12px 18px;
+    border: 2px solid #1b5eaa;
+    border-radius: 8px;
+    color: #12324f;
+    background: #ffffff;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 160ms ease, color 160ms ease;
+ }
+
+ button.resaltado {
+    background: #9bd7f4;
+    color: #102a43;
+ }
+
+ button:focus-visible {
+    outline: 3px solid #ffbf47;
+    outline-offset: 3px;
+ }
+
+ .estado {
+    min-height: 1.5em;
+    color: #4d5156;
+ }

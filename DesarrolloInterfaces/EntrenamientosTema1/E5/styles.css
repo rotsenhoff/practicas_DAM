@@ -1,0 +1,52 @@
+:root {
+font-family: Arial, sans-serif;
+color: #202124;
+background: #f4f6f8;
+}
+
+body { margin: 0; }
+
+.contenedor {
+width: min(620px, calc(100% - 40px));
+margin: 70px auto;
+padding: 32px;
+background: white;
+border-radius: 16px;
+box-shadow: 0 8px 24px rgb(0 0 0 / 10%);
+}
+
+form { display: grid; gap: 12px; }
+
+label { font-weight: 700; }
+
+input {
+padding: 11px;
+border: 2px solid #67717e;
+border-radius: 7px;
+font: inherit;
+}
+
+button {
+justify-self: start;
+padding: 11px 18px;
+border: 0;
+border-radius: 7px;
+color: white;
+background: #1b5eaa;
+font: inherit;
+cursor: pointer;
+}
+
+button:disabled {
+color: #5e6368;
+background: #d8dadd;
+cursor: not-allowed;
+}
+
+input:focus-visible, button:focus-visible {
+outline: 3px solid #ffbf47;
+outline-offset: 3px;
+}
+
+#ayudaNombre { margin: 0; color: #535a61; }
+#resultado { color: #146c2e; font-weight: 700; }

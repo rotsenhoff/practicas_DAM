@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista dinámica</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main class="panel">
+        <h1>Lista de tareas</h1>
+        <div class="acciones">
+            <button id="anadir" type="button">Añadir tarea</button>
+            <button id="eliminar" type="button" class="secundario">Eliminar última tarea</button>
+        </div>
+        <ol id="lista" aria-live="polite">
+            <li>Preparar el entorno de trabajo</li>
+        </ol>
+        <p id="estado" class="estado" aria-live="polite">Hay 1 tarea.</p>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

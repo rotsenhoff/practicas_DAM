@@ -1,0 +1,29 @@
+:root {
+font-family: Arial, sans-serif;
+color: #202124;
+background: #f4f6f8;
+}
+body { margin: 0; }
+.contenedor {
+width: min(620px, calc(100% - 40px));
+margin: 80px auto;
+padding: 32px;
+text-align: center;
+background: white;
+border-radius: 16px;
+box-shadow: 0 8px 24px rgb(0 0 0 / 10%);
+}
+button {
+min-width: 190px;
+padding: 12px 18px;
+border: 0;
+border-radius: 7px;
+color: white;
+background: #1b5eaa;
+font: inherit;
+cursor: pointer;
+}
+button:focus-visible {
+outline: 3px solid #ffbf47;
+outline-offset: 3px;
+}
